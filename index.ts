@@ -14,7 +14,7 @@ const answers: {
     ]
 )
 
-const words = answers.Sentence.trim().split("")
+const words = answers.Sentence.trim().split(" ")
 
 console.log(words);
 

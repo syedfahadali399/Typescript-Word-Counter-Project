@@ -7,6 +7,6 @@ const answers = await inquirer.prompt([
         message: "Enter Your Sentence To Count the Word"
     }
 ]);
-const words = answers.Sentence.trim().split("");
+const words = answers.Sentence.trim().split(" ");
 console.log(words);
 console.log(`Your Sentence Word Count Is ${words.length}`);
